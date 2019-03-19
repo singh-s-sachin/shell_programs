@@ -1,4 +1,4 @@
-echo "NAME : Muhammad Bin Omar, ID : S1703656 "
+echo "NAME : Sachin Kumar Singh"
 case "$1" in
 -d)cd ~/trashCan
 	rm ~/trashCan/*
@@ -34,8 +34,6 @@ case "$1" in
     echo "$line"
     stat -x ~/trashcan/$line |grep Size | grep FileType
 	done;;
--m)gnome-terminal -title=Muhammad Bin Omar,S1703656;;
--k)-9 $PPID;;
 *)echo "Are you sure you want to move this file to the TrashCan?" "(Yes/No)"
 	read ans
 	case "$ans" in
