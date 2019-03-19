@@ -3,6 +3,7 @@ This shell program will allow a user to perform safe deletion from terminal (com
 The functionality of this program are as follow :-
 safeDel -r : This will allow user to recover data from recycle bin(trashCan).
 safeDel -l : To fetch the content of trashCan, one can perform this action.
+safeDel -l :To know the memory occupied by trashCan in external disk.
 safeDel -d : To permanently delee the content of trashCan.
 safeDel -filename : To specifically delete the any particular file from current directory.
 
